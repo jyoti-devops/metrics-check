@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "load_metrics": {
+      "type": "metric",
+      "command": "ruby /etc/sensu/plugins/load-metrics.rb",
+      "subscribers": [
+        "ALL"
+      ],
+      "interval": 10
+    }
+  }
